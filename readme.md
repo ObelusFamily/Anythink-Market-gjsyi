@@ -1,7 +1,18 @@
 # Welcome to the Anythink Market repo
 
-To start the app use Docker. It will start both frontend and backend, including all the relevant dependencies, and the db.
+To start the app use Docker. It will start both frontend and backend, including all the relevant dependencies, and the db : 
 
+- To Install Docker : Follow instructions from : 
+https://docs.docker.com/get-docker/
+
+- To Verify Installation run :
+$ docker -v 
+$ docker-compose -v 
+
+- In Project Main Folder Run $ docker-compose up
+
+- App should be running at http://localhost:3001/
+ 
 Please find more info about each part in the relevant Readme file ([frontend](frontend/readme.md) and [backend](backend/README.md)).
 
 ## Development
